@@ -5,7 +5,7 @@
 
   const API_KEY = new URL(currentScript.src).searchParams.get('key');
   const SESSION_ID = parseInt(10000*Math.random())
-  const BACKEND_URL = "http://127.0.0.1:5000/chat";
+  const BACKEND_URL = "https://server-vls8.onrender.com/chat";
   let conversationHistory = [];
   let isOpen = false;
 
